@@ -3,6 +3,7 @@ import numpy as np
 v1 = np.array(list(map(float, input("Enter first vector (x1 y1): ").split())))
 v2 = np.array(list(map(float, input("Enter second vector (x2 y2): ").split())))
 
+print("Dot product of ",v1," and ",v2," is: ")
 dot_product = np.dot(v1, v2)
 
 print(f"The dot product of the two vectors is: {dot_product}")
